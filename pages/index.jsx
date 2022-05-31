@@ -43,7 +43,7 @@ export default function Home() {
             animate={{ opacity: 1, scale: 2 }}
             transition={{ duration: 2, delay: 1.4 }}
           >
-            #YourLOGO
+            #YOURLOGO
             <Text css={{ d: 'flex', justifyItems: 'center', justifyContent: 'center', fs: '1.6vw' }}>#ComingSoon</Text>
           </Text>
         )}
