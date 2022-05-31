@@ -33,7 +33,7 @@ export default function Home() {
               exit={{ opacity: 0, scale: 0.1, transition: { duration: 2 } }}
             >
 
-              #YourBussines </Text>)}
+              #YOURBUSSINES </Text>)}
         </AnimatePresence>
 
         {!isVisible && (
