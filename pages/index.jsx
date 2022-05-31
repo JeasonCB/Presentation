@@ -21,7 +21,7 @@ export default function Home() {
         <AnimatePresence>
           {isVisible && (
             <Text
-              as={motion.h1} css={{ position: 'absolute', fs: '4vw' }}
+              as={motion.h1} css={{ position: 'absolute', fs: '6vw' }}
               key={setTimeout(() => {
                 toggle()
                 return () => clearTimeout()
@@ -33,18 +33,18 @@ export default function Home() {
               exit={{ opacity: 0, scale: 0.1, transition: { duration: 2 } }}
             >
 
-              #YOURBUSSINES </Text>)}
+              #YourBUSSINES </Text>)}
         </AnimatePresence>
 
         {!isVisible && (
-          <Text css={{ fs: '4vw' }}
+          <Text css={{ fs: '6vw' }}
             as={motion.h1}
             initial={{ opacity: 0, scale: 0.0001 }}
             animate={{ opacity: 1, scale: 2 }}
             transition={{ duration: 2, delay: 1.4 }}
           >
-            #YOURLOGO
-            <Text css={{ d: 'flex', justifyItems: 'center', justifyContent: 'center', fs: '1.6vw' }}>#ComingSoon</Text>
+            #YourLOGO
+            <Text css={{ d: 'flex', justifyItems: 'center', justifyContent: 'center', fs: '2.6vw' }}>#ComingSoon</Text>
           </Text>
         )}
 
