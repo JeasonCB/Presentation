@@ -9,13 +9,13 @@ export default function Home() {
   const toggle = () => setIsVisible(!isVisible)
   return (
     <>
-    <Head>
-      <title>Coming Soon</title>
-      <link rel="icon" href="/favicon.ico" />
+      <Head>
+        <title>Coming Soon</title>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Coming Soon" />
         <meta name="keywords" content="next, create next app, create next, next app, next ui, next ui org, next ui org" />
         <meta name="author" content="JECB" />
-    </Head>
+      </Head>
 
       <Grid justify='center' alignItems='center' alignContent='center' css={{ h: '100vh', w: '100%', bg: 'rgb(234,230,160)', d: 'flex' }}>
         <AnimatePresence>
